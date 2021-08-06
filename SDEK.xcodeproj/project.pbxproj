@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4B168A266E65C10033915C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B1689266E65C10033915C /* AppDelegate.swift */; };
+		CE4B168C266E65C20033915C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B168B266E65C20033915C /* SceneDelegate.swift */; };
+		CE4B168E266E65C20033915C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B168D266E65C20033915C /* ViewController.swift */; };
+		CE4B1691266E65C20033915C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4B168F266E65C20033915C /* Main.storyboard */; };
+		CE4B1693266E65C20033915C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4B1692266E65C20033915C /* Assets.xcassets */; };
+		CE4B1696266E65C20033915C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4B1694266E65C20033915C /* LaunchScreen.storyboard */; };
+		CE4B16A1266E65C30033915C /* SDEKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B16A0266E65C30033915C /* SDEKTests.swift */; };
+		CE4B16AC266E65C30033915C /* SDEKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B16AB266E65C30033915C /* SDEKUITests.swift */; };
+		CE880BC22670E1C40036E7F8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE880BC12670E1C40036E7F8 /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE4B169D266E65C30033915C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4B167E266E65C10033915C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4B1685266E65C10033915C;
+			remoteInfo = SDEK;
+		};
+		CE4B16A8266E65C30033915C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE4B167E266E65C10033915C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4B1685266E65C10033915C;
+			remoteInfo = SDEK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE4B1686266E65C10033915C /* SDEK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDEK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4B1689266E65C10033915C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE4B168B266E65C20033915C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE4B168D266E65C20033915C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE4B1690266E65C20033915C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE4B1692266E65C20033915C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4B1695266E65C20033915C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE4B1697266E65C20033915C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4B169C266E65C30033915C /* SDEKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDEKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4B16A0266E65C30033915C /* SDEKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDEKTests.swift; sourceTree = "<group>"; };
+		CE4B16A2266E65C30033915C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4B16A7266E65C30033915C /* SDEKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDEKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4B16AB266E65C30033915C /* SDEKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDEKUITests.swift; sourceTree = "<group>"; };
+		CE4B16AD266E65C30033915C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE880BC12670E1C40036E7F8 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4B1683266E65C10033915C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4B1699266E65C30033915C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4B16A4266E65C30033915C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4B167D266E65C10033915C = {
+			isa = PBXGroup;
+			children = (
+				CE4B1688266E65C10033915C /* SDEK */,
+				CE4B169F266E65C30033915C /* SDEKTests */,
+				CE4B16AA266E65C30033915C /* SDEKUITests */,
+				CE4B1687266E65C10033915C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4B1687266E65C10033915C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B1686266E65C10033915C /* SDEK.app */,
+				CE4B169C266E65C30033915C /* SDEKTests.xctest */,
+				CE4B16A7266E65C30033915C /* SDEKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4B1688266E65C10033915C /* SDEK */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B1689266E65C10033915C /* AppDelegate.swift */,
+				CE4B168B266E65C20033915C /* SceneDelegate.swift */,
+				CE880BBA2670D1370036E7F8 /* Controllers */,
+				CE4B168F266E65C20033915C /* Main.storyboard */,
+				CE4B1692266E65C20033915C /* Assets.xcassets */,
+				CE4B1694266E65C20033915C /* LaunchScreen.storyboard */,
+				CE4B1697266E65C20033915C /* Info.plist */,
+			);
+			path = SDEK;
+			sourceTree = "<group>";
+		};
+		CE4B169F266E65C30033915C /* SDEKTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B16A0266E65C30033915C /* SDEKTests.swift */,
+				CE4B16A2266E65C30033915C /* Info.plist */,
+			);
+			path = SDEKTests;
+			sourceTree = "<group>";
+		};
+		CE4B16AA266E65C30033915C /* SDEKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B16AB266E65C30033915C /* SDEKUITests.swift */,
+				CE4B16AD266E65C30033915C /* Info.plist */,
+			);
+			path = SDEKUITests;
+			sourceTree = "<group>";
+		};
+		CE880BBA2670D1370036E7F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B168D266E65C20033915C /* ViewController.swift */,
+				CE880BC12670E1C40036E7F8 /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4B1685266E65C10033915C /* SDEK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4B16B0266E65C30033915C /* Build configuration list for PBXNativeTarget "SDEK" */;
+			buildPhases = (
+				CE4B1682266E65C10033915C /* Sources */,
+				CE4B1683266E65C10033915C /* Frameworks */,
+				CE4B1684266E65C10033915C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDEK;
+			productName = SDEK;
+			productReference = CE4B1686266E65C10033915C /* SDEK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE4B169B266E65C30033915C /* SDEKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4B16B3266E65C30033915C /* Build configuration list for PBXNativeTarget "SDEKTests" */;
+			buildPhases = (
+				CE4B1698266E65C30033915C /* Sources */,
+				CE4B1699266E65C30033915C /* Frameworks */,
+				CE4B169A266E65C30033915C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4B169E266E65C30033915C /* PBXTargetDependency */,
+			);
+			name = SDEKTests;
+			productName = SDEKTests;
+			productReference = CE4B169C266E65C30033915C /* SDEKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE4B16A6266E65C30033915C /* SDEKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4B16B6266E65C30033915C /* Build configuration list for PBXNativeTarget "SDEKUITests" */;
+			buildPhases = (
+				CE4B16A3266E65C30033915C /* Sources */,
+				CE4B16A4266E65C30033915C /* Frameworks */,
+				CE4B16A5266E65C30033915C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4B16A9266E65C30033915C /* PBXTargetDependency */,
+			);
+			name = SDEKUITests;
+			productName = SDEKUITests;
+			productReference = CE4B16A7266E65C30033915C /* SDEKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4B167E266E65C10033915C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CE4B1685266E65C10033915C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CE4B169B266E65C30033915C = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CE4B1685266E65C10033915C;
+					};
+					CE4B16A6266E65C30033915C = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CE4B1685266E65C10033915C;
+					};
+				};
+			};
+			buildConfigurationList = CE4B1681266E65C10033915C /* Build configuration list for PBXProject "SDEK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4B167D266E65C10033915C;
+			productRefGroup = CE4B1687266E65C10033915C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4B1685266E65C10033915C /* SDEK */,
+				CE4B169B266E65C30033915C /* SDEKTests */,
+				CE4B16A6266E65C30033915C /* SDEKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4B1684266E65C10033915C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4B1696266E65C20033915C /* LaunchScreen.storyboard in Resources */,
+				CE4B1693266E65C20033915C /* Assets.xcassets in Resources */,
+				CE4B1691266E65C20033915C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4B169A266E65C30033915C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4B16A5266E65C30033915C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4B1682266E65C10033915C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4B168E266E65C20033915C /* ViewController.swift in Sources */,
+				CE4B168A266E65C10033915C /* AppDelegate.swift in Sources */,
+				CE4B168C266E65C20033915C /* SceneDelegate.swift in Sources */,
+				CE880BC22670E1C40036E7F8 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4B1698266E65C30033915C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4B16A1266E65C30033915C /* SDEKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4B16A3266E65C30033915C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4B16AC266E65C30033915C /* SDEKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE4B169E266E65C30033915C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4B1685266E65C10033915C /* SDEK */;
+			targetProxy = CE4B169D266E65C30033915C /* PBXContainerItemProxy */;
+		};
+		CE4B16A9266E65C30033915C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4B1685266E65C10033915C /* SDEK */;
+			targetProxy = CE4B16A8266E65C30033915C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE4B168F266E65C20033915C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4B1690266E65C20033915C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE4B1694266E65C20033915C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4B1695266E65C20033915C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE4B16AE266E65C30033915C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE4B16AF266E65C30033915C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4B16B1266E65C30033915C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SDEK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlfn.SDEK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE4B16B2266E65C30033915C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SDEK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlfn.SDEK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE4B16B4266E65C30033915C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SDEKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlfn.SDEKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDEK.app/SDEK";
+			};
+			name = Debug;
+		};
+		CE4B16B5266E65C30033915C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SDEKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlfn.SDEKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDEK.app/SDEK";
+			};
+			name = Release;
+		};
+		CE4B16B7266E65C30033915C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SDEKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlfn.SDEKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SDEK;
+			};
+			name = Debug;
+		};
+		CE4B16B8266E65C30033915C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C59M3SUUDH;
+				INFOPLIST_FILE = SDEKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xlfn.SDEKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SDEK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4B1681266E65C10033915C /* Build configuration list for PBXProject "SDEK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4B16AE266E65C30033915C /* Debug */,
+				CE4B16AF266E65C30033915C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4B16B0266E65C30033915C /* Build configuration list for PBXNativeTarget "SDEK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4B16B1266E65C30033915C /* Debug */,
+				CE4B16B2266E65C30033915C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4B16B3266E65C30033915C /* Build configuration list for PBXNativeTarget "SDEKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4B16B4266E65C30033915C /* Debug */,
+				CE4B16B5266E65C30033915C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4B16B6266E65C30033915C /* Build configuration list for PBXNativeTarget "SDEKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4B16B7266E65C30033915C /* Debug */,
+				CE4B16B8266E65C30033915C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4B167E266E65C10033915C /* Project object */;
+}
